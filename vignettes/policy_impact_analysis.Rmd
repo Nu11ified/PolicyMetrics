@@ -1,0 +1,19 @@
+---
+title: "policy_impact_analysis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{policy_impact_analysis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(PolicyMetrics)
+```
