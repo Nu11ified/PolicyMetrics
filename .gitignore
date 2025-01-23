@@ -1,1 +1,70 @@
 inst/doc
+# R Specific
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# Build artifacts
+*.tar.gz
+*.Rcheck/
+Meta/
+doc/
+docs/
+inst/doc/
+
+# Compiled source
+src/*.o
+src/*.so
+src/*.dll
+src/*.a
+src/*.dSYM/
+
+# Packages
+PolicyMetrics.Rcheck/
+PolicyMetrics_*.tar.gz
+
+# Environment files
+.Renviron
+.Rprofile
+.httr-oauth
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vignette outputs
+vignettes/*.html
+vignettes/*.pdf
+vignettes/*.nb.html
+
+# Test coverage
+coverage/
+tests/testthat/_snaps/
+
+# Development data
+data-raw/
+inst/extdata/tmp_*
+*.feather
+*.parquet
+
+# Quarto/Bookdown
+_site/
+_book/
+*.utf8.md
+*.knit.md
+
+# Python virtual env (if using reticulate)
+venv/
